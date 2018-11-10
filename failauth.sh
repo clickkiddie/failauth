@@ -9,7 +9,7 @@ case "$1" in
 	;;
 	*)
 		echo "shows list of failed sshd login attempts"
-		echo "	usage: $0 {usernames|cracker|scanner|all}"
+		echo "	usage: $0 {attempts|scanner}"
 		echo "		attempts (requires drunkenSSH as sshd): show list of <user> <password> <ip> with failed login attempt"
 		echo "		scanner: show list of IP4 with disconnect before login"
 	;;
