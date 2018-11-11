@@ -7,7 +7,7 @@ case "$1" in
 	"scanner")
 		cat /var/log/auth.log | grep "[preauth]"       | grep -Po "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" | sort | uniq
 	;;
-	"script"
+	"script")
 		./$0 attepts | awk '{print "sshpass -p \""$2"\" ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no "$1"@"$3}'
 	;;
 	*)
